@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Gimme Media is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by techstars) and added to the network as a stub for full-pipeline profiling.
+Gimme Media operates Gimme Metal, an online community and e‑commerce platform for metal music fans. Since 2017 it has united artists, members, and tastemakers, offering a shop where fans can purchase music and merchandise, supporting artists directly. The company provides a storefront and community hub for the strongest metal community worldwide.
 
-**Areas:** Vinyl · Metal Music · Collections · Vinyl Club · Bundles
+**Areas:** Music · Metal · Community · E-commerce · Radio
 
 ## Gimme Media on APIs.io
 
@@ -74,38 +74,54 @@ Everything profiled for Gimme Media is published on APIs.io rather than in this 
 
 ### APIs (1)
 
-- [Gimme Media API](https://apis.io/apis/gimmeradio-com/gimme-media-api/) — API discovered via GraphQL endpoint at https://gimmemetal.com/api/graphql; no machine-readable spec available.
+- [Gimme Media API](https://apis.io/apis/gimmeradio-com/gimme-media-api/) — API for Gimme Media providing GraphQL and MCP endpoints.
 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Security (1)
+#### Overlays (2)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Gimmeradio Com Graphql Introspection Overlay](https://apis.io/overlays/gimmeradio-com/gimmeradio-com-graphql-introspection-overlay/)
+- [Gimmeradio Com Mcp Tools Overlay](https://apis.io/overlays/gimmeradio-com/gimmeradio-com-mcp-tools-overlay/)
+
+#### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
+- [Gimmeradio Com Authentication](https://apis.io/security/gimmeradio-com/gimmeradio-com-authentication/)
 - [Gimmeradio Com Domain Security](https://apis.io/security/gimmeradio-com/gimmeradio-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Gimmeradio Com Scopes](https://apis.io/scopes/gimmeradio-com/gimmeradio-com-scopes/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- [Website](https://gimmeradio.com/)
+- [Website](https://gimmemetal.com/)
+- [Documentation](https://gimmemetal.com/pages/about-us)
+- [Support](https://gimmemetal.com/pages/contact-us)
 - [Blog](https://gimmemetal.com/pages/blog)
 - [Terms of service](https://gimmemetal.com/policies/terms-of-service)
 - [Privacy policy](https://gimmemetal.com/policies/privacy-policy)
 
 ## API Evangelist rating
 
-**Kin Score 9.5** — minimal · rubric 0.24.0 · scored 2026-10-29
+**Kin Score 15.5** — emerging · rubric 0.25.0 · scored 2026-10-29
 
 | Facet | Score |
 |---|---|
-| Discoverability | 50.0 |
+| Discoverability | 66.7 |
 | Contract quality | 0.0 |
 | Contract governance | 0.0 |
 | Operational transparency | 0.0 |
-| Developer ergonomics | 2.4 |
+| Developer ergonomics | 16.7 |
 | Access clarity | 21.1 |
 
 **Agent readiness 7.6** — agent-aware
@@ -131,8 +147,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | verified |
 | Dynamic Client Registration | — |
 | Agentic Commerce | platform (partial credit) |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
 
-**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 23.5** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/gimmeradio-com/](https://apis.io/providers/gimmeradio-com/).
 
